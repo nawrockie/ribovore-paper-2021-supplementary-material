@@ -5,6 +5,9 @@ See the 00README.txt file for a description of all files.
 
 Instructions on running tests are in files ending in `.sh`.
 
+Ribovore is on github: 
+https://github.com/ncbi/ribovore
+
 Files that end in .gz can be unpacked with the command 
 ```
 gunzip filename
@@ -16,3 +19,6 @@ To unpack:
 ```
 tar xf ribovore-paper-supplementary-material.tar.gz
 ```
+
+---
+Questions/problems? email eric.nawrocki@nih.gov
