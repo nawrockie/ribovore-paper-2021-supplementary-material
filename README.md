@@ -14,5 +14,5 @@ The gzipped tarball `ribovore-paper-supplementary-material.tar.gz` contains all 
 To unpack:
 
 ```
-tar xf ribovore-paper-supplementary-material.tar.gz`
+tar xf ribovore-paper-supplementary-material.tar.gz
 ```
