@@ -1,5 +1,4 @@
-# ribovore-paper-supplementary-material
-Supplementary material for *Ribovore: Ribovore: ribosomal RNA sequence analysis for GenBank submissions and database curation*, submitted Feb 2021
+## Supplementary material for *Ribovore: Ribovore: ribosomal RNA sequence analysis for GenBank submissions and database curation*, submitted Feb 2021
 
 See the 00README.txt file for a description of all files. 
 
