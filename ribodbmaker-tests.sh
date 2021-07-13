@@ -2,6 +2,8 @@
 # ribodbmaker-tests.sh
 # Eric Nawrocki and Alejandro Schaffer
 # Jan 29, 2021
+# updated July 13, 2021: only change is to update Ribovore v1.0 changed to v1.0.2. 
+#                        The changes between Ribovore v1.0 and v1.0.2 are all bug fixes.
 # 
 # This file includes instructions for running the ribodbmaker tests
 # described in the paper "Ribovore: ribosomal RNA sequence analysis
@@ -16,13 +18,13 @@
 # 
 # This file is split into two sections:
 # Section 1: version 0.40
-# Section 2: version 1.0
+# Section 2: version 1.0.2
 # 
 # The first section gives instructions on how to run the tests using
 # version Ribovore v0.40 giving results that (nearly identically)
 # match what is in the paper. 
 #
-# The second section runs the tests with Ribovore v1.0.
+# The second section runs the tests with Ribovore v1.0.2.
 #
 # Note that these tests will only run on linux systems because
 # ribodbmaker only runs on linux.
@@ -97,7 +99,7 @@ ribodbmaker.pl -f --taxin silvaparc-and-microsporidia.tax.txt --skipclustr --mod
 # commands above in Section 1.
 #
 # You can run these commands without the '--taxin <taxfile>' option to 
-# use the default taxonomy tree included in Ribovore v1.0.
+# use the default taxonomy tree included in Ribovore v1.0.2.
 #
 # You can also run these commands with an updated taxonomy tree file
 # using the '--taxin' option with an updated tree file. 
@@ -105,7 +107,7 @@ ribodbmaker.pl -f --taxin silvaparc-and-microsporidia.tax.txt --skipclustr --mod
 # https://github.com/ncbi/ribovore/blob/ribovore-1.0/documentation/ribodbmaker.md#updatetaxonomy
 #
 # Required input files and software:
-# Ribovore v1.0
+# Ribovore v1.0.2
 # yarza.fa
 # yarza.tax.txt
 # silvaref.fa
@@ -115,9 +117,9 @@ ribodbmaker.pl -f --taxin silvaparc-and-microsporidia.tax.txt --skipclustr --mod
 # microsporidia.fa
 # silvaparc-and-microsporidia.tax.txt
 #
-# 1. install Ribovore v1.0 using instructions in the INSTALLATION
+# 1. install Ribovore v1.0.2 using instructions in the INSTALLATION
 #    section of the install.md file here:
-#    https://github.com/ncbi/ribovore/blob/ribovore-1.0/documentation/install.md
+#    https://github.com/ncbi/ribovore/blob/ribovore-1.0.2/documentation/install.md
 #    Make sure you set your environment variables as explained in the
 #    install.md file (and remove any definitions of environment
 #    variables from your .bashrc or .cshrc from other installations of
